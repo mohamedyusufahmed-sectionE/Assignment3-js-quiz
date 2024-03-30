@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="loginContainer">
+        <h1>Login</h1>
+        <form id="loginForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            <button type="submit">Login</button>
+        </form>
+        <div id="loginFeedback"></div>
+    </div>
+   <div class="container" id="quizContainer" style="display: none;">
+        <h1>Fun Quiz</h1>
+        <div id="quiz">
+            <div id="question"></div>
+            <div id="options" class="options"></div>
+            <button id="submit-btn">Submit</button>
+        </div>
+        <div id="feedback"></div>
+        <div id="score"></div>
+    </div>
+    <script src="script.js"></script>
+   
+</body>
+</body>
+</html>
